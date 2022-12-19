@@ -18,7 +18,7 @@ from drawingletterN import letterN
 #defining the screen as an object
 screen=Screen()
 screen.bgcolor("white")
-screen.title("Writing My Name")
+screen.title("Writing My Name, another edition")
 
 # defining the turtle as the object which makes the drawing
 color("black")
@@ -31,5 +31,6 @@ hideturtle() # it is optinal, just to hide the object to make better animation
 # drawing the letter N
 
 letterN()
+
 
 

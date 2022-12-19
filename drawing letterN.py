@@ -3,9 +3,20 @@
 # i am creating a function called letterN that draws the letter N
 # i will use this file as a module
 
-
 # importing the module turtle and all of its methods
-from turtle import *
+import turtle as t
+
+#defining the screen as an object
+screen=t.Screen()
+screen.bgcolor("white")
+screen.title("Writing My Name, another edition")
+
+# defining the turtle as the object which makes the drawing
+t.color("black")
+t.speed(0)
+t.mode("logo") # to make the turtle head to the north, and the postitve angles for counterclockwise rotation
+t.penup()
+t.hideturtle() # it is optinal, just to hide the object to make better animation
 
 
 def letterN ():
@@ -13,10 +24,10 @@ def letterN ():
 
        # drawing the letter N, first part
 
-    goto(-300,0) # moving the turtle to a start point, located at the left bottom region of the screen
-    pendown() # order the turtle to trace
-    begin_fill() # filling the future drawing after closing lines
-    forward (300) # tracing a straight vertical line from the botton to to top
+    t.goto(-300,0) # moving the turtle to a start point, located at the left bottom region of the screen
+    t.pendown() # order the turtle to trace
+    t.begin_fill() # filling the future drawing after closing lines
+    t.forward (300) # tracing a straight vertical line from the botton to to top
     circle(10,180) #  drawing half a circle to the left
     forward(300) #tracing back a straight vertical line from the top  to to bottom
     circle(10,180) # drawing the half of circle in order to close the drawing
