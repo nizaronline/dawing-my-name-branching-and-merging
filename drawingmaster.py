@@ -19,8 +19,8 @@ from drawingletterI import letterI
 from drawingletterZ import letterZ
 # importing the module letterA which contains the related function to draw the corresponding letter
 from drawingletterA import letterA
-# importing the module letterZ which contains the related function to draw the corresponding letter
-from drawingletterZ import letterZ
+# importing the module letterR which contains the related function to draw the corresponding letter
+from drawingletterR import letterR
 
 #defining the screen as an object
 screen=Screen()
