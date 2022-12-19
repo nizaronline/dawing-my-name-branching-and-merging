@@ -9,3 +9,5 @@ forward(300) #tracing back a straight vertical line from the top  to to bottom
 circle(10,180) # drawing the half of circle in order to close the drawing
 end_fill() #filling the drawing after the lines have been closed
 penup() # ordering the turtle to not to draw
+
+
