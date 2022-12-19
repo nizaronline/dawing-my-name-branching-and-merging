@@ -1,6 +1,6 @@
 # this program is intended to draw my name using the language Python and the module turtle
 # this version is used with branching and merging
-# every branch consists in drawing one letter,
+# every branch consists in drawing only one letter,
 # the master branch is for screen and object
 # every branch is in a specific file
 
