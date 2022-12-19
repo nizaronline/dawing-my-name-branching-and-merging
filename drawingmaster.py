@@ -15,6 +15,8 @@ from turtle import *
 from drawingletterN import letterN
 # importing the module letterI which contains the related function to draw the corresponding letter
 from drawingletterI import letterI
+# importing the module letterZ which contains the related function to draw the corresponding letter
+from drawingletterZ import letterZ
 
 
 #defining the screen as an object
@@ -34,6 +36,7 @@ hideturtle() # it is optinal, just to hide the object to make better animation
 
 letterN()
 letterI()
+letterZ()
 
 
 
