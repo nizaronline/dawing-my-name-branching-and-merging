@@ -17,7 +17,10 @@ from drawingletterN import letterN
 from drawingletterI import letterI
 # importing the module letterZ which contains the related function to draw the corresponding letter
 from drawingletterZ import letterZ
-
+# importing the module letterA which contains the related function to draw the corresponding letter
+from drawingletterA import letterA
+# importing the module letterZ which contains the related function to draw the corresponding letter
+from drawingletterZ import letterZ
 
 #defining the screen as an object
 screen=Screen()
@@ -32,10 +35,12 @@ penup()
 hideturtle() # it is optinal, just to hide the object to make better animation
 
 
-# drawing the letter N
+# drawing all the letters, one by one, by calling the corresponding function :
 
 letterN()
 letterI()
+letterZ()
+letterA()
 letterZ()
 
 
